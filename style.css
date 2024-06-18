@@ -1,0 +1,59 @@
+/* element selector */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* Compound selector/descendant selector */
+div p {
+    color: rgb(255, 255, 255);
+}
+
+/* id selector */
+#box1 {
+    margin-top: 12px;
+    display: inline-block;
+    padding: 20px;
+    border-top: 8px dashed white;
+    border-bottom: 8px dotted white;
+}
+
+/* class selector */
+.oddLine {
+    font-family: "Nothing You Could Do", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    margin-top: 60px;
+}
+
+/* class selector */
+.evenLine {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 140px;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 80px;
+}
+
+/* class selector */
+.highlight {
+    background-color: white;
+    color: rgb(216, 9, 9);
+    padding-left: 24px;
+    padding-right: 24px;
+    border-bottom: 4px solid black;
+}
+
+/* id selector */
+#jimRohn {
+    font-family: "Nothing You Could Do", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    text-align: right;
+    margin-top: 100px;
+}
